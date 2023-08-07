@@ -245,16 +245,20 @@ h6 {
   background-size: cover;
 }
 
-
 @media (min-width: 1024px) {
-  #hero div {
-    transform: translateY(-120%);
+  #hero .hero-container {
+    transform: translate(-30%, -65%);
   }
 }
 
+
 @media (max-width: 768px) {
-  #hero div {
-    transform: translateY(-120%);
+  .special-hero {
+    align-items: start !important;
+  }
+
+  #hero .hero-container {
+    margin-left: 30px;
   }
 }
 
